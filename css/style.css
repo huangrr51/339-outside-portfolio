@@ -1,4 +1,21 @@
-body{
-  text-align: center;
-  /* Added this as a test  */
+html{
+    scroll-behavior: smooth;
 }
+
+body{
+  font-family: 'xxx', sans-serif;
+  font-size: 16pt;
+}
+
+.navi{
+	display: inline-block;
+	position: relative;
+}
+
+.menu-container{
+	display: none;
+	position: absolute;
+}
+
+.show {display: block;} 
+/*use js to add this for dropdown*/
