@@ -3,22 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Publications</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="nav">
-          <nav>
-            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
-            <div class="menu-container">
-              <ul class="nav-links">
+    <div class="navi">
+        <nav>
+          <button class="menu-toggle" onclick="dropDown()">Menu</button>
+          <div class="menu-container" id="drop-down">   
+            <ul class="nav-links">
                 <li class="nav-item"><a href="index.html">Home</a></li>
                 <li class="nav-item"><a href="about.html">About Me</a></li>
-                <li class="nav-item"><a href="publications.html">Publications</a></li>
+                <li class="nav-item" id="active"><a href="publications.html">Publications</a></li>
                 <li class="nav-item"><a href="press.html">Press</a></li>
                 <li class="nav-item"><a href="contact.html">Contact</a></li>
-              </ul>
-              </div>
-          </nav>
-      </div>
+            </ul>
+        </nav>
+    </div>
       <div class="Content">
         <h3>2019</h3>
         <p><a href="files/snet_cscw_2019_repair_r_r-5.pdf" target="_blank">If it Rains, Ask Grandma to Disconnect the Nano: Maintenance & Care in Havana's StreetNet</a>

@@ -1,3 +1,5 @@
+/*pop color: lets use #E24E42? can change later*/;
+
 html{
     scroll-behavior: smooth;
 }
@@ -7,15 +9,50 @@ body{
   font-size: 16pt;
 }
 
+h1{
+	font-size: 1.5em;
+	line-height: 1.5;
+}
+
+h2{
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover, a:focus{
+	color: #E24E42;
+}
+
 .navi{
 	display: inline-block;
-	position: relative;
+}
+
+.menu-toggle{
+	width: 100vw;
+	padding: 0.3em;
+	border: none;
+	font-size: 1em;
+}
+
+.menu-toggle:hover, .menu-toggle:focus{
+	color: #FFF;
+	background-color: #E24E42;
 }
 
 .menu-container{
 	display: none;
-	position: absolute;
 }
 
-.show {display: block;} 
-/*use js to add this for dropdown*/
+.show {display: block;}
+
+li{
+	text-align: center;
+	padding: 0.5em;
+} 
+
+#active{
+	color: #E24E42;
+}
