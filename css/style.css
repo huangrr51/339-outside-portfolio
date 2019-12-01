@@ -7,16 +7,20 @@ html{
 body{
   font-family: 'Montserrat', sans-serif;
   font-size: 16pt;
+  background-color: #fffdfd;
+  color: #303030;
 }
 
 h1{
-	font-size: 2em;
-	line-height: 1.5;
+	font-size: 2.2em;
+	line-height: 2;
 	font-weight: 700;
 }
 
 h2{
 	font-size: 1.5em;
+	padding-bottom: 5vh;
+	line-height: 1.5;
 }
 
 .title > h2{
@@ -25,7 +29,12 @@ h2{
 }
 
 h3{
-	padding-top: 3vh;
+	padding-bottom: 1vh;
+}
+
+h4{
+	font-size: 0.8em;
+	font-weight: 400;
 }
 
 p{
@@ -46,6 +55,7 @@ a:hover, a:focus{
 	text-decoration-style: dotted;
 }
 
+
 footer{
 	background-color: #E24E42;
 	color: #FFF;
@@ -56,31 +66,6 @@ footer{
 
 footer > p{
 	padding: 1vh 0;
-}
-
-.title{
-	background-color: #ccc;
-	background-image: url("../images/three_shops.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100vw;
-	height: 60vh;
-}
-
-.title > h1, .title > h2{
-	color: #FFF;
-}
-
-.navi{
-	display: inline-block;
-}
-
-button.menu-toggle{
-	width: 100vw;
-	padding: 0.5em;
-	border: none;
-	font-size: 1em;
-	font-weight: 500;
 }
 
 button{
@@ -95,16 +80,51 @@ button:hover, button:focus{
 	background-color: #BB291D;
 }
 
+.navi{
+	display: inline-block;
+}
+
+
+button.menu-toggle{
+	width: 100vw;
+	padding: 0.5em;
+	border: none;
+	font-size: 1em;
+	font-weight: 500;
+	position: fixed;
+}
+
 .menu-container{
 	display: none;
+	background-color: #F8F8F8;
 }
 
 .show {display: block;}
 
+/*start of index.html*/
+.title{
+	background-color: #ccc;
+	background-image: url("../images/three_shops.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100vw;
+	height: 70vh;
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.title > h1, .title > h2{
+	color: #FFF;
+	padding: 0 3vw;
+}
+
 li{
 	text-align: center;
-	padding: 0.5em;
+	padding: 0.8em;
 	font-weight: 500;
+	border-bottom: 1px dotted #C0C0C0;
 } 
 
 li > a{
@@ -119,10 +139,15 @@ li > a{
 .overview{
 	padding: 10vh 5vw;
 	text-align: center;
+	border-bottom: 1px solid #C0C0C0;
 }
 
 .overview > p{
 	padding: 3vh 0;
+}
+
+#profile{
+	box-shadow: 8px 8px 5px #C0C0C0;
 }
 
 button.read-more{
@@ -145,9 +170,65 @@ button.read-more > a:hover, a:focus{
 }
 
 .recent-news{
-	margin: 3vh 0;
-	padding: 0 5vw;
-
+	padding: 10vh 5vw;
 }
 
+.news-item{
+	padding: 3vh 0;
+	border-bottom: 1px dotted #C0C0C0;
+}
 
+/*end of index.html*/
+
+/*start of press.html*/
+.press{
+	padding: 5vh 5vw;
+}
+
+.press-item{
+	padding: 3vh 0;
+	border-bottom: 1px dotted #C0C0C0;
+}
+
+.press-item > p > a{
+	color: inherit; /*??*/
+	font-weight: 700;
+}
+
+.press-item > p > a:hover, a:focus{
+	color: #BB291D;
+}
+
+.press-2018{
+	padding-bottom: 5vh;
+}
+
+/*desktop*/
+@media screen and (min-width: 1281px){
+	.menu-toggle{
+		display: none;
+	}
+
+	nav{
+		
+	}
+	.menu-container{
+		display: inline-block;
+		
+	}
+
+	ul{
+		display: -webkit-box;
+    		display: flex;
+  		-webkit-box-orient: horizontal;
+  		-webkit-box-direction: normal;
+    		flex-direction: row;
+		justify-content: space-evenly;
+		width: 100vw;
+		border-bottom: 1px solid #C0C0C0;
+	}
+
+	li{
+		border: none;
+	}
+}
