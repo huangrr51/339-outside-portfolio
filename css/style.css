@@ -52,7 +52,8 @@ a{
 }
 
 a:hover, a:focus{
-	color: #BB291D;
+  color: #990000;
+  /* color: #BB291D; */
 	text-decoration: underline;
 	text-decoration-style: dotted;
 }
@@ -89,24 +90,25 @@ footer > p{
 	padding: 1vh 0;
 }
 
-/* Navigation start */
-
 footer > p > a{
 	color: #FFFFFF;
 }
+footer > p > a:hover{
+	color: black;
+}
 
-
+/* affects buttons like 'read more about me' and 'home'*/
 button{
 	cursor: pointer;
 	font-family: 'Montserrat';
   background-color: #d62e0d;
-  /* background-color: #E24E42; */
 	color: #FFF;
 	font-size: 1em;
 }
 
 button:hover, button:focus{
 	background-color: #BB291D;
+  /* background-color: #000000; */
 }
 
 .navi{
