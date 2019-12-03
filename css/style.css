@@ -86,24 +86,6 @@ button:hover, button:focus{
 .navi{
 	display: inline-block;
 }
-.Content{
-  padding: 50px;
-}
-.Content h3 {
-  font-size: 30px;
-
-  padding-bottom:20px;
-}
-.Publications_title {
-  padding-top:50px;
-
-  font-size: 35px;
-  text-align: center;
-}
-.Content p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
 button.menu-toggle{
 	width: 100vw;
@@ -199,6 +181,27 @@ button.read-more > a:hover, a:focus{
 
 /*end of index.html*/
 
+/*start of publications.html*/
+.Content{
+  padding: 5vh 5vw;
+}
+
+
+.Content p {
+  	padding: 3vh 0;
+	border-bottom: 1px dotted #C0C0C0;
+}
+
+.Content p a {
+	font-weight: 700;
+	font-style: italic;
+}
+
+.publications{
+	padding-bottom: 10vh;
+}
+/*end of publications.html*/
+
 /*start of press.html*/
 .press{
 	padding: 5vh 5vw;
@@ -219,7 +222,7 @@ button.read-more > a:hover, a:focus{
 }
 
 .press-2018{
-	padding-bottom: 5vh;
+	padding-bottom: 10vh;
 }
 
 /*desktop*/
