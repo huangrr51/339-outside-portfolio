@@ -107,7 +107,7 @@ button{
 }
 
 button:hover, button:focus{
-	background-color: #BB291D;
+	background-color: #990000;
   /* background-color: #000000; */
 }
 
@@ -115,34 +115,6 @@ button:hover, button:focus{
 	display: inline-block;
 }
 
-/*.Content{
-  padding: 50px;
-}
-.Content h3 {
-  font-size: 30px;
-
-  padding-bottom:20px;
-}
-.Publications_title {
-  padding-top:50px;
-  font-size: 35px;
-  text-align: center;
-}
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-.Content p {
-
-
-  padding-top: 20px;
-  padding-bottom: 20px;
-  overflow:normal;
-}*/
 
 button.menu-toggle{
 	width: 100vw;
@@ -246,10 +218,9 @@ button.read-more > a:hover, a:focus{
   padding: 5vh 5vw;
 }
 
-
 .Content p {
   	padding: 3vh 0;
-	border-bottom: 1px dotted #C0C0C0;
+  	overflow: normal;
 }
 
 .Content p a {
@@ -259,6 +230,15 @@ button.read-more > a:hover, a:focus{
 
 .publications{
 	padding-bottom: 10vh;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dotted #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 /*end of publications.html*/
 
@@ -273,7 +253,7 @@ button.read-more > a:hover, a:focus{
 }
 
 .press-item > p > a{
-	color: inherit; /*??*/
+	color: #d62e0d; /*??*/
 	font-weight: 700;
 }
 
@@ -293,8 +273,7 @@ button.read-more > a:hover, a:focus{
 
 /* the margin around the text */
 .aboutText{
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 5vh 5vw;
 }
 /* the aboutPhotos stuff below is about positioning the images */
 .aboutPhotos{
