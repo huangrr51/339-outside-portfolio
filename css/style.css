@@ -83,7 +83,24 @@ button:hover, button:focus{
 .navi{
 	display: inline-block;
 }
+.Content{
+  padding: 50px;
+}
+.Content h3 {
+  font-size: 30px;
 
+  padding-bottom:20px;
+}
+.Publications_title {
+  padding-top:50px;
+
+  font-size: 35px;
+  text-align: center;
+}
+.Content p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 button.menu-toggle{
 	width: 100vw;
@@ -125,7 +142,7 @@ li{
 	padding: 0.8em;
 	font-weight: 500;
 	border-bottom: 1px dotted #C0C0C0;
-} 
+}
 
 li > a{
 	color: inherit;
@@ -210,11 +227,11 @@ button.read-more > a:hover, a:focus{
 	}
 
 	nav{
-		
+
 	}
 	.menu-container{
 		display: inline-block;
-		
+
 	}
 
 	ul{
