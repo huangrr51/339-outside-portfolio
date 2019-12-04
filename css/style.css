@@ -178,13 +178,13 @@ button.menu-toggle{
 	font-weight: 400;
 	font-size: 0.8em;
 	position: relative;
-	top: 100px;
+	top: 150px;
 
 
 }
 #wide a span {
   position: absolute;
-  top: 50px;
+  top: 25px;
   left: 50%;
   width: 24px;
   height: 24px;
