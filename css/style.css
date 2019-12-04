@@ -10,14 +10,18 @@ body{
 }
 
 h1{
-	font-size: 2.2em;
+	font-size: 1.8em;
 	line-height: 2;
+	padding-bottom: 3vh;
 	font-weight: 700;
 }
 
+.title > h1{
+	font-size: 2.2em;
+}
+
 h2{
-	font-size: 1.5em;
-	padding-bottom: 5vh;
+	font-size: 1.2em;
 	line-height: 1.5;
 }
 
@@ -28,12 +32,10 @@ h2{
 
 h3{
 	padding-bottom: 1vh;
+	font-weight: 500;
+	font-size: 0.8em;
 }
 
-h4{
-	font-size: 0.8em;
-	font-weight: 400;
-}
 
 p{
 	line-height: 1.5em;
@@ -105,29 +107,13 @@ button{
 }
 
 button:hover, button:focus{
-	background-color: #BB291D;
+	background-color: #990000;
   /* background-color: #000000; */
 }
 
 .navi{
-	display: inline-block;
-}
-.Content{
-  padding: 50px;
-}
-.Content h3 {
-  font-size: 30px;
-
-  padding-bottom:20px;
-}
-.Publications_title {
-  padding-top:50px;
-  font-size: 35px;
-  text-align: center;
-}
-.Content p {
-  padding-top: 20px;
-  padding-bottom: 20px;
+	position: sticky;
+	top: 0;
 }
 
 button.menu-toggle{
@@ -163,6 +149,7 @@ button.menu-toggle{
 	padding: 0;
 	display: table-cell;
 	vertical-align: middle;
+
 }
 
 .title > h1, .title > h2{
@@ -228,6 +215,35 @@ button.read-more > a:hover, a:focus{
 
 /*end of index.html*/
 
+/*start of publications.html*/
+.Content{
+  padding: 5vh 5vw;
+}
+
+.Content p {
+  	padding: 3vh 0;
+  	overflow: normal;
+}
+
+.Content p a {
+	font-weight: 700;
+	font-style: italic;
+}
+
+.publications{
+	padding-bottom: 10vh;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dotted #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+/*end of publications.html*/
+
 /*start of press.html*/
 .press{
 	padding: 5vh 5vw;
@@ -239,7 +255,7 @@ button.read-more > a:hover, a:focus{
 }
 
 .press-item > p > a{
-	color: inherit; /*??*/
+	color: #d62e0d; /*??*/
 	font-weight: 700;
 }
 
@@ -248,7 +264,7 @@ button.read-more > a:hover, a:focus{
 }
 
 .press-2018{
-	padding-bottom: 5vh;
+	padding-bottom: 10vh;
 }
 
 /* end of press.html */
@@ -259,8 +275,7 @@ button.read-more > a:hover, a:focus{
 
 /* the margin around the text */
 .aboutText{
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 5vh 5vw;
 }
 /* the aboutPhotos stuff below is about positioning the images */
 .aboutPhotos{
