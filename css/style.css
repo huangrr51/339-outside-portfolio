@@ -369,9 +369,13 @@ hr {
   flex-wrap: wrap;
   -webkit-box-pack: center;
     justify-content: center;
+
 }
 #aboutPhotos img{
-  width: 80%;
+  width:auto;
+  max-width: 80vw;
+  height: auto;
+  max-height: 50vh;
   
 }
 
@@ -420,9 +424,12 @@ hr {
     text-align: left;
   }
 	#aboutPhotos img{
- 		 width: 20vw;
-
- 	}
+  width:auto;
+  max-width: 30vw;
+  height: auto;
+  max-height: 50vh;
+  
+}
   #twitterpic{
     width: 20vw;
     display: inline;
