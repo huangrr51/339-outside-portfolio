@@ -114,9 +114,9 @@ button:hover, button:focus{
 }
 
 .navi{
-	display: inline-block;
+	position: sticky;
+	top: 0;
 }
-
 
 button.menu-toggle{
 	width: 100vw;
@@ -151,6 +151,7 @@ button.menu-toggle{
 	padding: 0;
 	display: table-cell;
 	vertical-align: middle;
+
 }
 
 .title > h1, .title > h2{
