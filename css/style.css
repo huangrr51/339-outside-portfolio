@@ -27,6 +27,7 @@ h1{
 h2{
 	font-size: 1.2em;
 	line-height: 1.5;
+	font-weight: 500;
 }
 
 .title > h2{
@@ -84,7 +85,7 @@ a:hover, a:focus{
 }
 
 *:focus{
-  border: 2px solid black;
+  border: 1px solid gray;
 }
 
 footer{
@@ -192,7 +193,6 @@ li > a{
 
 .overview > p{
 	padding: 3vh 0;
-	font-weight: 500;
 }
 
 #profile{
