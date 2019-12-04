@@ -11,7 +11,7 @@ body{
 
 h1{
 	font-size: 1.8em;
-	line-height: 2;
+	line-height: 1.5;
 	padding-bottom: 3vh;
 	font-weight: 700;
 }
@@ -178,7 +178,7 @@ button.menu-toggle{
 	font-weight: 400;
 	font-size: 0.8em;
 	position: relative;
-	top: 150px;
+	top: 100px;
 
 
 }
@@ -367,11 +367,15 @@ hr {
   flex-wrap: wrap;
   -webkit-box-pack: center;
     justify-content: center;
-}
-#aboutPhotos img{
-  width: 80%;
 
 }
+#aboutPhotos img{
+  width:auto;
+  max-width: 80vw;
+  height: auto;
+  max-height: 50vh;
+
+
 
 
 /* end of about.html */
@@ -418,13 +422,20 @@ hr {
     text-align: left;
   }
 	#aboutPhotos img{
- 		 width: 20vw;
+  width:auto;
+  max-width: 30vw;
+  height: auto;
+  max-height: 50vh;
 
- 	}
+}
   #twitterpic{
     width: 20vw;
     display: inline;
   }
+}
+
+#wide a{
+	top: 150px;
 }
 
 @media screen and (prefers-reduced-motion: reduce){
@@ -454,5 +465,6 @@ hr {
   #wide a span {
     animation: none;
   }
+
 
 }
