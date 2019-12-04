@@ -107,7 +107,7 @@ footer > p > a:hover{
 }
 
 /* affects buttons like 'read more about me' and 'home'*/
-button{
+input{
 	cursor: pointer;
 	font-family: 'Montserrat';
   background-color: #d62e0d;
@@ -115,7 +115,7 @@ button{
 	font-size: 1em;
 }
 
-button:hover, button:focus{
+input:hover, input:focus{
 	background-color: #990000;
   /* background-color: #000000; */
 }
@@ -201,7 +201,7 @@ li > a{
   /* border-radius: 7px; */
 }
 
-button.read-more{
+input.read-more{
 	padding: 0.5em;
 	margin-top: 3vh;
 	border-radius: 10px;
@@ -209,14 +209,14 @@ button.read-more{
 }
 
 
-button.read-more > a{
+input.read-more > a{
 	color: #FFF;
 	text-decoration: none;
 	font-style: normal;
 	font-weight: 400;
 }
 
-button.read-more > a:hover, a:focus{
+input.read-more > a:hover, a:focus{
 	color: #FFF;
 }
 
