@@ -17,6 +17,10 @@ h1{
 }
 
 .title > h1{
+	font-size: 1.2em;
+}
+
+#wide > h1{
 	font-size: 2.2em;
 }
 
@@ -26,6 +30,11 @@ h2{
 }
 
 .title > h2{
+	font-size: 0.8em;
+	font-weight: 400;
+}
+
+#wide > h2{
 	font-size: 1em;
 	font-weight: 500;
 }
@@ -138,6 +147,8 @@ button.menu-toggle{
 .show {display: block;}
 
 /*start of index.html*/
+
+
 .title{
 	background-color: #ccc;
 	background-image: url("../images/three_shops.jpg");
@@ -145,12 +156,16 @@ button.menu-toggle{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	width: 100vw;
-	height: 70vh;
+	height: 25vh;
 	padding: 0;
 	display: table-cell;
 	vertical-align: middle;
-
 }
+
+#wide{
+	height: 80vh;
+}
+
 
 .title > h1, .title > h2{
 	color: #FFF;
@@ -178,6 +193,7 @@ li > a{
 
 .overview > p{
 	padding: 3vh 0;
+	font-weight: 500;
 }
 
 #profile{
@@ -279,15 +295,17 @@ hr {
 }
 /* the aboutPhotos stuff below is about positioning the images */
 .aboutPhotos{
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 5vh 5vw;
 }
 #aboutPhotos{
-  text-align: center;
+	display: -webkit-box;
+    display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+    justify-content: center;
 }
 #aboutPhotos img{
-  width: 20vw;
+  width: 80vw;
   filter: saturate(100%);
     -webkit-filter:saturate(100%);
 }
@@ -295,14 +313,15 @@ hr {
 /* end of about.html */
 
 /*desktop*/
-@media screen and (min-width: 1281px){
+@media screen and (min-width: 851px){
+	.title{
+		text-align: center;
+	}
+
 	.menu-toggle{
 		display: none;
 	}
 
-	nav{
-
-	}
 	.menu-container{
 		display: inline-block;
 
@@ -322,4 +341,8 @@ hr {
 	li{
 		border: none;
 	}
+
+	#aboutPhotos img{
+ 		 width: 20vw;
+ 	}
 }
