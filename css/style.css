@@ -453,4 +453,8 @@ hr {
     background-attachment: local;
   }
 
+  #wide a span {
+    animation: none;
+  }
+
 }
