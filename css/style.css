@@ -116,7 +116,7 @@ footer > p > a:hover{
 
 button:hover, button:focus{
 	background-color: #990000;
-  /* background-color: #000000; */
+
 }
 
 .navi{
@@ -326,9 +326,8 @@ hr {
 }
 #aboutPhotos img{
   width: 80vw;
-  filter: saturate(100%);
-    -webkit-filter:saturate(100%);
 }
+
 
 /* end of about.html */
 /* Start of Contact page */
