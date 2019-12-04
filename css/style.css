@@ -196,7 +196,8 @@ li > a{
 }
 
 #profile{
-	box-shadow: 8px 8px 5px #C0C0C0;
+	/* box-shadow: 8px 8px 5px #C0C0C0; */
+  border-radius: 10px;
 
 }
 
@@ -296,6 +297,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  border-radius: 15px;
 }
 /* the margin around the text */
 .aboutText{
@@ -307,7 +309,7 @@ hr {
   padding: 5vh 5vw;
 }
 #aboutPhotos{
-	display: -webkit-box;
+  display: -webkit-box;
     display: flex;
   flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -322,6 +324,9 @@ hr {
 /* Start of Contact page */
 .contact{
   padding: 5vh 5vw;
+}
+.contact img{
+  border-radius: 15px;
 }
 .contact p{
   padding: 1vh 0;
@@ -363,6 +368,7 @@ hr {
   }
 	#aboutPhotos img{
  		 width: 20vw;
+
  	}
   #twitterpic{
     width: 20vw;
