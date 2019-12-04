@@ -331,6 +331,15 @@ hr {
 }
 
 /* end of about.html */
+/* Start of Contact page */
+.contact{
+  padding: 5vh 5vw;
+}
+.contact p{
+  padding: 1vh 0;
+  overflow: normal;
+}
+
 
 /*desktop*/
 @media screen and (min-width: 851px){
