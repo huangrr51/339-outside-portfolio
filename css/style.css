@@ -163,7 +163,7 @@ button.menu-toggle{
 }
 
 #wide{
-	height: 80vh;
+	height: 100vh;
 }
 
 
@@ -197,33 +197,14 @@ li > a{
 
 #profile{
 	box-shadow: 8px 8px 5px #C0C0C0;
-  /* border-radius: 7px; */
+
 }
 
-/* button.read-more{
-	padding: 0.5em;
-	margin-top: 3vh;
-	border-radius: 10px;
-	border: 1px solid #808080;
-}
-
-
-button.read-more > a{
-	color: #FFF;
-	text-decoration: none;
-	font-style: normal;
-	font-weight: 400;
-}
-
-button.read-more > a:hover, a:focus{
-	color: #FFF;
-} */
 
 .read-more{
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  /* border: solid 1px #20538D; */
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -309,9 +290,17 @@ hr {
 
 /* start of about.html */
 
+#twitterpic{
+  width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
 /* the margin around the text */
 .aboutText{
   padding: 5vh 5vw;
+  text-align: center;
 }
 /* the aboutPhotos stuff below is about positioning the images */
 .aboutPhotos{
@@ -369,8 +358,14 @@ hr {
 	li{
 		border: none;
 	}
-
+  .aboutText{
+    text-align: left;
+  }
 	#aboutPhotos img{
  		 width: 20vw;
  	}
+  #twitterpic{
+    width: 20vw;
+    display: inline;
+  }
 }
